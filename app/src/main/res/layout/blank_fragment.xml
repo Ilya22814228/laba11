@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/po" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_marginTop="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="139dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/android" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal|left"
+                    android:text="Android Studio - Интегрированная среда разработки для работы с платформой Android"
+                    android:textColor="#1C1616"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="0" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="164dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/netbens"
+                    app:layout_column="0"
+                    app:layout_row="1" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="NetBeans - Свободная интрегрированная среда разработки приложений на различных языках программирования."
+                    android:textColor="#100909"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/eclipse"
+                    app:layout_column="0"
+                    app:layout_row="2" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="223dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Eclipse IDE for Java Developers - Свободная интегрированная среда разработки модульных кроссплатформенных приложений."
+                    android:textColor="#1B1111"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="2" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/xd_logo"
+                    app:layout_column="0"
+                    app:layout_row="3" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="228dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Adobe XD - Программа для разработки интерфейсов."
+                    android:textColor="#0C0707"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="3" />
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="153dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/photoshop"
+                    app:layout_column="0"
+                    app:layout_row="4" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="185dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Adobe Photoshop - это мощный набор инструментов для обработки цифровых изображений."
+                    android:textColor="#120909"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="4" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="148dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/illus"
+                    app:layout_column="0"
+                    app:layout_row="5" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="231dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Adobe illustrator - это программное обеспечение для создания векторной графики, которую  можно уменьшить до размеров экрана смартфона или увеличить до размеров билборда - без ущерба для качества и чёткости изображения."
+                    android:textColor="#070404"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="5" />
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/visual"
+                    app:layout_column="0"
+                    app:layout_row="6" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Microsoft Visual Studio Commonity - Данные продукты позволяют разрабатывать как консольные приложения так и тестировать их. "
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="6" />
+            </androidx.gridlayout.widget.GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

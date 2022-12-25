@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="409dp"
+        android:layout_height="279dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/wsrw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="409dp"
+        android:layout_height="444dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Союз «Молодые профессионалы (Ворлдскиллс Россия)» – официальный оператор международного некоммерческого движения WorldSkills International, миссия которого – повышение стандартов подготовки кадров.\n \t Наш девиз: «Делай мир лучше силой своего мастерства!» («Improving the world with the power of skills!»).\n \t Раз в два года одна из 84 стран-участниц движения проводит мировой чемпионат профессионального мастерства. В 2019-м он прошел в России (WorldSkillsKazan 2019).\n \t WorldSkills Russia проводит всероссийские чемпионаты профессионального мастерства по пяти направлениям:\n \t Конкурсы профессионального мастерства между студентами колледжей и техникумов в возрасте до 22 лет. Раз в год победители региональных первенств соревнуются на Национальном финале «Молодые профессионалы» (WorldSkillsRussia). Из победителей формируется расширенный состав национальной сборной для участия в мировом чемпионате WorldSkills Competition. С 2017 года появилась отдельная возрастная линейка – юниоры WorldSkills (16 и младше лет).\n \t Корпоративные чемпионаты, которые проводятся на производственных площадках крупнейших российских компаний. В них принимают участие молодые рабочие в возрасте от 16 до 28 лет. Победители представляют свою корпорацию на ежегодном финале WorldSkills Hi-Tech.\n \t Чемпионат в сфере высокотехнологичных профессий IT-сектора – DigitalSkills. Участники – студенты профильных вузов и колледжей, а также специалисты крупнейших компаний, включая «Лабораторию Касперского», «Кибер Россию», «Ростелеком» и «Фирму «1C». Возрастное ограничение – до 28 лет.\n \t AgroSkills – отраслевой чемпионат профессионального мастерства среди сотрудников компаний из сектора сельского хозяйства (возраст 18-28 лет). Соорганизатор – Министерство сельского хозяйства РФ. Проводится по трем компетенциям: «агрономия», «ветеринария», «эксплуатация сельскохозяйственных машин».\n \t Межвузовский чемпионат по стандартам WorldSkills – конкурс профессионального мастерства между студентами высших учебных заведений. Победители вузовских чемпионатов встречаются в национальном финале.\n \t Помимо организации чемпионатов, Союз «Молодые профессионалы (Ворлдскиллс Россия)» занимается внедрением мировых стандартов в национальную систему средне-специального и высшего образования. В 2017 году около 14 тысяч выпускников колледжей и техникумов в 26 регионах России впервые сдали демонстрационный экзамен по стандартам WorldSkills Russia. По сути, прошли через единственную в России независимую оценку практических навыков. По итогам испытания, студенты получили Skills-паспорта, а работодатели - чётко структурированную информацию о профессиональном уровне молодых специалистов"
+            android:textColor="#150D0D"
+            android:textSize="20sp" />
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
